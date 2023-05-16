@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <p>Listas Ordenadas</p>
+    <ol>
+        <li>Acordar
+        <li>Escovar os dentes
+        <li>Tomar café
+        <li>Ir para a faculdade
+        <li>Almoçar 
+        <li>Ir para o trabalho
+        <li>Voltar para casa
+        <li>Jantar
+        <li>Escovar os dentes    
+        <li>Dormir 
+    </ol>        
+    <p>Mudando a type para A, ordem alfabetica</p><!--type a minusculo, cria uma ordem numerica porem com letras minusculas-->
+    <ol type="A"> 
+        <li>Acordar
+        <li>Escovar os dentes
+        <li>Tomar café
+        <li>Ir para a faculdade
+        <li>Almoçar 
+        <li>Ir para o trabalho
+        <li>Voltar para casa
+        <li>Jantar
+        <li>Escovar os dentes    
+        <li>Dormir
+    </ol>
+    <p>Mudando a type para I, números romanos</p>
+    <ol>
+        <ol type="I"> <!--type i minusculo, cria numeros romanos minusculos-->
+            <li>Acordar
+            <li>Escovar os dentes
+            <li>Tomar café
+            <li>Ir para a faculdade
+            <li>Almoçar 
+            <li>Ir para o trabalho
+            <li>Voltar para casa
+            <li>Jantar
+            <li>Escovar os dentes    
+            <li>Dormir 
+    </ol>
+    <h2>Lista não ordenada</h2>
+    <p>Usando type disc</p>
+    <ul type="disc">
+        <li>Pão
+        <li>Leite
+        <li>Manteiga
+        <li>Frios
+    </ul>
+    <p>Usando type circle</p>
+    <ul type="circle">
+        <li>Pão
+        <li>Leite
+        <li>Manteiga
+        <li>Frios
+    </ul>
+    <p>Usando type square</p>
+    <ul type="square">
+        <li>Pão
+        <li>Leite
+        <li>Manteiga
+        <li>Frios
+    </ul>
+    <h2>Listas Mistas</h2>
+    <p>Minhas linguagens favoritas</p>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper
+            <li>Visual Basic
+            <li>Fortran
+            <li>Delphi        
+    </ol>
+    <li>Novas</li>
+    <ol type="a" start="5"> <!--quando quiser dar sequencia numa lista numerada ou alfabética, usar o star com número, a partir da numeração ou letra que v quiser usar-->
+        <li>PHP</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Kotlin</li>
+    </ol>
+    <h2>Meus games favoritos</h2>
+    <ol>
+        <li>Nintendo (NES)</li>
+        <ul type="circle">
+            <li>Mario Bros</li>
+            <ul type="square">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Giden</li>
+        </ul>
+        <li>Super Nintendo (SNES)</li>
+        <ul type="circle">
+            <li>Mario Bros</li>
+            <li>Donk Monkey</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="circle">
+            <li>God of War</li>
+            <li>Medievil</li>
+        </ul>
+    </ol>
+    <h2>Listas de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para <mark>criação de conteúdo</mark> para um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para <mark>criação de design</mark> de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para <mark>criação de interatividade</mark> de um site.</dd>
+    </dl>
+</body>
+</html>
